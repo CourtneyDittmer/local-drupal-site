@@ -42,3 +42,13 @@ sites/all/modules/README.txt
 sites/all/themes/README.txt
 
 /composer.lock
+
+sites/default/settings.php
+sites/default/files/php/
+sites/default/files/css
+sites/default/files/js
+sites/default/files/config_*
+sites/default/services.yml
+sites/default/settings.local.php
+sites/default/files/styles/
+themes/blog_themes/.sass-cache/`
