@@ -88,7 +88,16 @@
  * ];
  * @endcode
  */
-$databases = [];
+$databases['default']['default'] = array (
+  'database' => 'test_db',
+  'username' => 'sql_username',
+  'password' => 'sql_password',
+  'prefix' => '',
+  'host' => '127.0.0.1', // Use IP address instead of localhost
+  'port' => '3306', // Default MySQL/MariaDB port
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
 
 /**
  * Customizing database settings.
